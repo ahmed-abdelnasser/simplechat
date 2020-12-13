@@ -3,22 +3,23 @@
 Simple realtime chat app room laravel , vue with pusher
 # run application
 
-- clone repositry
+1. clone repositry
 
-- install composer 
+2. install composer 
 ```bash
 composer install
 ```
-- copy env file 
+3. copy env file 
 ```bash 
 cp .env.example .env
 ```
-- generate new key 
+4. generate new key 
  ```bash 
 php artisan key:generate
 ```
-- modify database config at .env
+5. modify database config at .env
 
+6. run migrate
  ```bash 
 php artisan migrate 
 ```
