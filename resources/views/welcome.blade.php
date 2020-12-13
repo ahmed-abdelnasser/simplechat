@@ -45,7 +45,11 @@
             }
 
             .title {
-                font-size: 84px;
+                font-size: 60px;
+            }
+            .title a{
+                color: #636b6f;
+                text-decoration: none;
             }
 
             .links > a {
@@ -81,7 +85,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Welcome
+                   <a href="{{ route('chat') }}"> Enter Chat </a>
                 </div>
 
                 
