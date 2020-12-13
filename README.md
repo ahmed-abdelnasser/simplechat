@@ -1,12 +1,10 @@
-## About application
+# About application
 
 Simple realtime chat app room laravel , vue with pusher
-## run application
+# run application
 
 - clone repositry
-```bash
-git clone 
-```
+
 - install composer 
 ```bash
 composer install
@@ -22,7 +20,10 @@ php artisan key:generate
 - modify database config at .env
 
  ```bash 
-npm 
+php artisan migrate 
 ```
+
+### enjoy :)
+
 
 
